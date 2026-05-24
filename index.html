@@ -1,31 +1,44 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Bubble Sniper - Correction</title>
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="js/app.js" type="module"></script>
 
 </head>
+
 <body>
-<div class="game-container">
-  <h1>Bubble Sniper</h1>
-  <div class="game-info">
-    <div class="timer">Temps: <span id="time">30</span>s</div>
-    <div class="score">Score: <span id="score">0</span></div>
-  </div>
-  <div class="game-area" id="gameArea">
-    <!-- Le cadre de jeu s'affichera ici -->
-  </div>
-  <button id="ajoutBubble">Ajouter</button>
-  <div id="finalPanel" class="hidden">
-    <div class="final-content">
-      <h2>Temps écoulé</h2>
-      <p>Votre score final: <span id="finalScore">0</span></p>
-      <button id="restartBtn">New Game</button>
+  <div class="search-bar">
+    <input type="text" id="" placeholder="Search here...">
+    <div class="search-icon">
+      <i class="fa-solid fa-magnifying-glass"></i>
     </div>
   </div>
-</div>
+  <div class="game-container">
+
+    <h1>Bubble Sniper</h1>
+    <div class="game-info">
+      <div class="timer">Temps: <span id="time">30</span>s</div>
+      <div class="score">Score: <span id="score">0</span></div>
+    </div>
+    <div class="game-area" id="gameArea">
+      <!-- Le cadre de jeu s'affichera ici -->
+    </div>
+    <button id="ajoutBubble">Ajouter</button>
+    <div id="finalPanel" class="hidden">
+      <div class="final-content">
+        <h2>Temps écoulé</h2>
+        <p>Votre score final: <span id="finalScore">0</span></p>
+        <button id="restartBtn">New Game</button>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
